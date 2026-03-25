@@ -1,0 +1,5 @@
+config USAC_SYSCALLS
+    tristate "USAC syscalls (practica 2)"
+    default y
+    help
+      Conjunto de syscalls personalizadas para el curso de Sistemas Operativos II.

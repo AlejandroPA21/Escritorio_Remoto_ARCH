@@ -1,0 +1,85 @@
+/* Contenedor principal del formulario */
+.loginContainer {
+    width: 360px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Encabezado con el título */
+.header {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.header h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+    color: #555;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+    color: #0056b3; /* Un azul más oscuro y profesional */
+}
+
+/* Estilo del formulario */
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los elementos del form */
+}
+
+/* Estilo de los campos de texto (usuario/contraseña) */
+.input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    transition: border-color 0.2s, box-shadow 0.2s; /* Transición suave */
+}
+
+/* Efecto visual al hacer clic en un campo de texto */
+.input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+}
+
+/* Estilo del botón de Ingresar */
+.button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Efecto visual al pasar el mouse sobre el botón */
+.button:hover {
+    transform: translateY(-2px); /* Eleva ligeramente el botón */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* Mensaje de error */
+.errorMessage {
+    color: #d93025;
+    margin-top: 20px;
+    font-weight: 500;
+}

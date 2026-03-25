@@ -1,0 +1,4 @@
+config INPUT_USAC_SYSCALLS
+    bool "USAC syscalls and virtual input devices"
+    depends on INPUT
+    default y

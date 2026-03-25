@@ -1,0 +1,1 @@
+obj-$(CONFIG_INPUT_USAC_SYSCALLS) += syscalls_usac.o usac_mouse.o usac_resources.o

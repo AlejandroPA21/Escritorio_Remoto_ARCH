@@ -1,0 +1,35 @@
+.screenContainer {
+    flex-grow: 1;
+    width: 100%;
+    background-color: #06021b; /* Fondo negro para máxima inmersión */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Clave para evitar barras de scroll */
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.screenImage {
+    /* Estas propiedades aseguran el ajuste perfecto */
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain; /* Mantiene la proporción, añadiendo bandas negras si es necesario */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.placeholder {
+    color: #6c757d;
+    font-size: 1.5rem;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 20px;
+    border: 2px solid #dc3545;
+    border-radius: 8px;
+    background-color: rgba(220, 53, 69, 0.1);
+}

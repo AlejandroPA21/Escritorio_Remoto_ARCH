@@ -1,0 +1,1 @@
+obj-$(CONFIG_USAC_SYSCALLS) += syscalls_usac.o 

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/auth_server.dir/api_server.cpp.o CMakeFiles/auth_server.dir/auth_logic.c.o CMakeFiles/auth_server.dir/screen_capture.cpp.o CMakeFiles/auth_server.dir/jpeg_converter.cpp.o -o auth_server  -lpistache -lpthread -lpam -ljpeg 

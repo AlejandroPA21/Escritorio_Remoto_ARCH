@@ -1,0 +1,14 @@
+/* Un pequeño "reseteo" para eliminar márgenes por defecto del navegador */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prohibimos el scroll en el nivel más alto */
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f5;
+}
