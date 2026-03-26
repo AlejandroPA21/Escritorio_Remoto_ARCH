@@ -683,3 +683,9 @@ return (
     > {/* ... */} </div>
 );
 ```
+
+### Funcionamiento en frontend(REACT)
+
+![imgLogin](./images/front1.png)
+
+![imgSegundaPantalla](./images/front2.png)
